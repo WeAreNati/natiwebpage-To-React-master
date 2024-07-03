@@ -1,0 +1,6 @@
+from /Users/oddfl3x/Code/NATIwebpageReact/natiwebpage-To-React-master/public/index.html
+
+/**
+      <link as="script" href="./assets/js/vendor.js" rel="preload" /><script defer src="./assets/js/vendor.js"></script>
+      <link as="script" href="./assets/js/app.js" rel="preload" /><script defer src="./assets/js/app.js"></script><!-- Design by 666orinwuxchiy -->
+*/ 
