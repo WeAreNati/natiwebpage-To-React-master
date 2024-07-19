@@ -2,12 +2,11 @@ import { useEffect } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
+gsap.registerPlugin();
 gsap.registerPlugin(ScrollTrigger);
 
 const useGsapAnimations = () => {
   useEffect(() => {
-    gsap.registerPlugin(ScrollTrigger);
-
     gsap.fromTo('.motif > *', { y: '0%' }, { y: '25%',
       scrollTrigger: {
         trigger: '.motif',
@@ -114,3 +113,4 @@ const useGsapAnimations = () => {
 };
 
 export default useGsapAnimations;
+

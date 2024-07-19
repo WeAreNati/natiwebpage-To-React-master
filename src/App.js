@@ -7,6 +7,7 @@ import useMobileDetection from './components/Mobliedetection';
 import useLenisAndGsap from './components/LenisGSAP';
 import useGsapAnimations from './components/GSAP';
 
+
 import './App.css';
 
 function App() {
@@ -21,11 +22,15 @@ function App() {
   
     <div >
     
-      /* <Header /> */
+      
       <Home />
-      /* <Footer /> */
+      
     </div>
   );
 }
 
 export default App;
+
+// rm -rf node_module
+//rm -f package-lock.json
+//npm cache clean --force

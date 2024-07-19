@@ -1,14 +1,74 @@
 import React from 'react';
-import { ReactSVG } from 'react-svg';
 import Sprite from '../components/Sprites'; // Ensure this path is correct
 import triangleRoad from '../img/triangle-road.svg'; // Import the SVG file
 import triangleAbout from '../img/triangle-about.svg'; // Import the SVG file
+import gsap from 'gsap';
+import ScrollTrigger from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
 
 class Home extends React.Component {
+    
+
     render() {
         return (
+            
             <main className="main">
                 <Sprite /> {/* Load the sprite */}
+
+                <header className="header">
+                <div className="header-left">
+                    <a aria-label="IlluminatiCoin" className="header-logo" href="#home">
+                        <svg viewBox="0 0 5545 1005">
+                            <use href="#logo-sigle"></use>
+                            <use href="#logo-txt" transform="scale(1.15)" x="1200" y="300"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div className="header-line">
+                    <svg viewBox="0 0 11.32 6.14">
+                        <use href="#arrow-left"></use>
+                    </svg>
+                </div>
+                <nav className="header-nav">
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#how">How to buy</a></li>
+                        <li><a href="#tokenomics">Tokenomics</a></li>
+                        <li><a href="#roadmap">Roadmap</a></li>
+                        <li><a href="https://medium.com/@illuminaticoin.io" rel="noopener noreferrer" target="_blank">Medium</a></li>
+                        <li className="li-social"><a href="https://t.me/naticoincommunity" rel="noopener noreferrer" target="_blank">Telegram</a></li>
+                        <li className="li-social"><a href="https://discord.gg/7VbGkRKD9f" rel="noopener noreferrer" target="_blank">Discord</a></li>
+                        <li className="li-social"><a href="https://x.com/naticoineth" rel="noopener noreferrer" target="_blank">Twitter / 𝕏</a></li>
+                        <li className="li-social"><a href="https://www.facebook.com/illuminaticoin.io" rel="noopener noreferrer" target="_blank">Facebook</a></li>
+                        <li className="li-social"><a href="https://instagram.com/illuminaticoin.io" rel="noopener noreferrer" target="_blank">Instagram</a></li>
+                        <li className="li-social"><a href="https://tiktok.com/@illuminaticoin.io" rel="noopener noreferrer" target="_blank">Tik Tok</a></li>
+                        <li className="li-social"><a href="https://www.youtube.com/@illuminaticoin" rel="noopener noreferrer" target="_blank">YouTube</a></li>
+                        <li className="li-social"><a href="https://www.reddit.com/r/IlluminatiCoin" rel="noopener noreferrer" target="_blank">Reddit</a></li>
+                        <li className="li-social"><a href="https://linktr.ee/illuminaticoin" rel="noopener noreferrer" target="_blank">Linktree</a></li>
+                        <li className="li-social"><a href="mailto:contact@illuminaticoin.io">Email Us</a></li>
+                    </ul>
+                </nav>
+                <div className="header-line header-line-right">
+                    <svg viewBox="0 0 11.32 6.14">
+                        <use href="#arrow-left"></use>
+                    </svg>
+                </div>
+                <ul className="header-social">
+                    <li><a aria-label="Twitter / 𝕏" href="https://x.com/naticoineth" rel="noopener noreferrer" target="_blank"><svg viewBox="0 0 39 39"><use href="#twitter-x"></use></svg></a></li>
+                    <li><a aria-label="Telegram" href="https://t.me/naticoincommunity" rel="noopener noreferrer" target="_blank"><svg viewBox="0 0 39 39"><use href="#telegram"></use></svg></a></li>
+                </ul>
+                <div className="header-right">
+                    <a className="btn" href="#buy">Buy now</a>
+                    <button aria-label="Menu" className="btn btn-nav" type="button">
+                        <svg viewBox="0 0 100 100">
+                            <path className="l-1" d="M0,42h62c13,0,6,26-4,16L35,35"></path>
+                            <path name="l-2" d="M0,50h70"></path>
+                            <path className="l-3" d="M0,58h62c13,0,6-26-4-16L35,65"></path>
+                        </svg>
+                    </button>
+                </div>
+            </header>
 
                 <section className="hero" id="home">
                     <div className="content">
@@ -210,9 +270,7 @@ class Home extends React.Component {
 
                         <div className="about-right" data-reveal="fade">
                             <div className="about-right-img">
-                                <svg className="about-img" viewBox="0 0 896 894">
-                                    <use href="#triangle-about"></use>
-                                </svg>
+                                <img src={triangleAbout} alt="About Illuminati Coin" />
                             </div>
                         </div>
                     </div>
@@ -349,6 +407,70 @@ class Home extends React.Component {
                     <div className="bg">
                         <div className="how-bg"></div>
                     </div>
+                    
+                </section>
+
+                /* NEW TEST PROXY SWAP */
+
+                <section className="how" id="how">
+                    <div className="content">
+                        <div className="how-left">
+                            <header className="how-heading heading">
+                                <div className="heading-top">
+                                    <svg className="heading-top-logo" data-reveal="top" viewBox="0 0 1121 1006">
+                                        <use href="#logo-triangle"></use> <use href="#wallet" transform="scale(11)" x="35" y="38"></use>
+                                    </svg>
+                                    <svg className="heading-top-line" data-reveal="fade" viewBox="0 0 450 20">
+                                        <use href="#flower-line"></use>
+                                    </svg>
+                                </div>
+
+                                <h2>
+                                    <small data-reveal="">Swap $NATI onto</small> <strong data-reveal="">VERUS</strong>
+                                </h2>
+                            </header>
+                        </div>
+
+                        <div className="how-right">
+                            
+
+                            <article>
+                                <svg className="icon-triangle swap" data-reveal="top" viewBox="0 0 95 80">
+                                    <use href="#triangle"></use> <use href="#swap-nati-eth"></use>
+                                </svg>
+
+                                <h3 className="h3" data-reveal="top" id="buy">Swap NATI for NATI.vETH</h3>
+
+                                <div className="p">
+                                    <p data-reveal="">
+                                        We have <strong>ZERO</strong> taxes so you don&#39;t need to worry about buying with a specific slippage, although you may need to use slippage during times of market volatility.
+                                    </p>
+
+                                    <p className="intro" data-reveal="">
+                                        Use the swap module just below to buy your first <strong className="nati">$NATI</strong>.
+                                    </p>
+                                </div>
+
+                                <div className="swaperverus-content">
+                                    <div className="fading"></div>
+
+                                    <div className="swaperverus">
+                                        <iframe
+                                            src="http://localhost:3002"
+                                            height="600"
+                                            width="800"
+                                            title="Embedded React App"
+                                            style={{ border: 'none' }}></iframe>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div className="bg">
+                        <div className="how-bg"></div>
+                    </div>
+                    
                 </section>
                 {/*token Start */}
                 <section className="token">
@@ -359,16 +481,16 @@ class Home extends React.Component {
                                     <use href="#triangle"></use>
                                 </svg>
                             </div>
-
                             <div className="token-circle">
                                 <div className="token-circle-svg">
                                     <svg viewBox="0 0 100 100">
-                                        <circle className="c92" cx="50" cy="50" r="50"></circle> <circle className="c7" cx="50" cy="50" r="50"></circle> <circle className="c1" cx="50" cy="50" r="50"></circle>
+                                        <circle className="c92" cx="50" cy="50" r="50"></circle>
+                                        <circle className="c7" cx="50" cy="50" r="50"></circle>
+                                        <circle className="c1" cx="50" cy="50" r="50"></circle>
                                     </svg>
                                 </div>
                                 <svg className="token-title" viewBox="0 0 505 43">
                                     <text y="41">
-                                        {' '}
                                         <tspan>T</tspan>
                                         <tspan>o</tspan>
                                         <tspan>k</tspan>
@@ -378,15 +500,13 @@ class Home extends React.Component {
                                         <tspan>m</tspan>
                                         <tspan>i</tspan>
                                         <tspan>c</tspan>
-                                        <tspan>s</tspan>{' '}
-                                    </text>{' '}
+                                        <tspan>s</tspan>
+                                    </text>
                                 </svg>
                             </div>
                         </div>
                     </div>
-
                     <div className="token-triangle-trigger"></div>
-
                     <div className="content" id="tokenomics">
                         <header className="token-heading heading">
                             <div className="heading-top">
@@ -397,19 +517,16 @@ class Home extends React.Component {
                                     <use href="#flower-line"></use>
                                 </svg>
                             </div>
-
                             <h2>
                                 <small data-reveal="">Total supply</small> <strong data-reveal="">33,000,000,000,000</strong>
                             </h2>
                         </header>
-
                         <div className="p">
                             <p className="intro" data-reveal="">
                                 92% of the tokens were sent to the liquidity pool, LP tokens were burnt, and contract renounced.
                             </p>
                         </div>
                     </div>
-
                     <div className="bg">
                         <div className="token-bg"></div>
                     </div>
@@ -441,9 +558,7 @@ class Home extends React.Component {
 
                             <div className="road-right">
                                 <div className="road-right-img" data-reveal="">
-                                    <svg className="road-img" viewBox="0 0 1284 1103">
-                                        <use href="triangle-road"></use>
-                                    </svg>
+                                    <img src={triangleRoad} alt="Roadmap Illuminati Coin" />
                                 </div>
                             </div>
                         </div>
@@ -497,6 +612,35 @@ class Home extends React.Component {
                         <div className="road-bg"></div>
                     </div>
                 </section>
+
+                <footer className="footer">
+        
+
+        <div className="content">
+          <svg className="footer-logo" data-reveal="top" viewBox="0 0 5545 1005">
+            <use href="#logo-sigle"></use>
+            <use href="#logo-txt" transform="scale(1.15)" x="1200" y="300"></use>
+          </svg>
+
+          <div className="avert">
+            <p className="max" data-reveal="">
+              $NATI is a meme coin with no intrinsic value or expectation of financial return.
+            </p>
+
+            <p data-reveal="">
+              This is a community-driven development (CDD) project, run by a community moving in harmony.
+            </p>
+          </div>
+
+          <div className="copyright" data-reveal="">
+            &copy; 2023 Illuminati Coin. All rights reserved.
+          </div>
+        </div>
+
+        <div className="footer-back">
+          <strong data-reveal="">Illuminati</strong>
+        </div>
+      </footer>
             </main>
         );
     }
