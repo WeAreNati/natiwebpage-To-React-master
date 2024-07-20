@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/natiwebpage-To-React-master/static/css/main.fd947a2c.css",
+    "main.js": "/natiwebpage-To-React-master/static/js/main.673bdc1e.js",
+    "static/js/453.1e523824.chunk.js": "/natiwebpage-To-React-master/static/js/453.1e523824.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/natiwebpage-To-React-master/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/triangle-road.svg": "/natiwebpage-To-React-master/static/media/triangle-road.499e5d3e7a9ce9626960ca4b9999b5c2.svg",
+    "static/media/naticoin-bg-tokenomic.webp": "/natiwebpage-To-React-master/static/media/naticoin-bg-tokenomic.4154307d04799c8a7d59.webp",
+    "static/media/triangle-about.svg": "/natiwebpage-To-React-master/static/media/triangle-about.dbd8a73f1f0dd416c9bb7fe90679d3c9.svg",
+    "static/media/Inter-roman.var.woff2?v=3.19": "/natiwebpage-To-React-master/static/media/Inter-roman.var.ba4caefcdf5b36b438db.woff2",
+    "static/media/naticoin-bg-hero.webp": "/natiwebpage-To-React-master/static/media/naticoin-bg-hero.c93e9594aa0a1ff5f2a2.webp",
+    "static/media/motif.webp": "/natiwebpage-To-React-master/static/media/motif.f56383c0f3455a466512.webp",
+    "static/media/naticoin-bg-roadmap.webp": "/natiwebpage-To-React-master/static/media/naticoin-bg-roadmap.4d8a6c97b5b7c0cdbe40.webp",
+    "static/media/fontawesome-webfont.eot": "/natiwebpage-To-React-master/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/natiwebpage-To-React-master/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/naticoin-bg-about.webp": "/natiwebpage-To-React-master/static/media/naticoin-bg-about.0a5da0beef0dd95a9a6d.webp",
+    "static/media/naticoin-bg-how-buy.webp": "/natiwebpage-To-React-master/static/media/naticoin-bg-how-buy.b43b96da87136a0b10c3.webp",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/natiwebpage-To-React-master/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/natiwebpage-To-React-master/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/Titling-Gothic-FB-Wide-Bold.woff2": "/natiwebpage-To-React-master/static/media/Titling-Gothic-FB-Wide-Bold.6c63dfc731a2414b40c0.woff2",
+    "index.html": "/natiwebpage-To-React-master/index.html",
+    "main.fd947a2c.css.map": "/natiwebpage-To-React-master/static/css/main.fd947a2c.css.map",
+    "main.673bdc1e.js.map": "/natiwebpage-To-React-master/static/js/main.673bdc1e.js.map",
+    "453.1e523824.chunk.js.map": "/natiwebpage-To-React-master/static/js/453.1e523824.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd947a2c.css",
+    "static/js/main.673bdc1e.js"
+  ]
+}
