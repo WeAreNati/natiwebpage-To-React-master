@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/natiwebpage-To-React-master/static/css/main.fd947a2c.css",
-    "main.js": "/natiwebpage-To-React-master/static/js/main.673bdc1e.js",
+    "main.js": "/natiwebpage-To-React-master/static/js/main.3e196fc6.js",
     "static/js/453.1e523824.chunk.js": "/natiwebpage-To-React-master/static/js/453.1e523824.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/natiwebpage-To-React-master/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/triangle-road.svg": "/natiwebpage-To-React-master/static/media/triangle-road.499e5d3e7a9ce9626960ca4b9999b5c2.svg",
@@ -20,11 +20,11 @@
     "static/media/Titling-Gothic-FB-Wide-Bold.woff2": "/natiwebpage-To-React-master/static/media/Titling-Gothic-FB-Wide-Bold.6c63dfc731a2414b40c0.woff2",
     "index.html": "/natiwebpage-To-React-master/index.html",
     "main.fd947a2c.css.map": "/natiwebpage-To-React-master/static/css/main.fd947a2c.css.map",
-    "main.673bdc1e.js.map": "/natiwebpage-To-React-master/static/js/main.673bdc1e.js.map",
+    "main.3e196fc6.js.map": "/natiwebpage-To-React-master/static/js/main.3e196fc6.js.map",
     "453.1e523824.chunk.js.map": "/natiwebpage-To-React-master/static/js/453.1e523824.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd947a2c.css",
-    "static/js/main.673bdc1e.js"
+    "static/js/main.3e196fc6.js"
   ]
 }
